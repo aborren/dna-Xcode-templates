@@ -3,7 +3,8 @@ This project contains Xcode template(s) more suitable the default ones that come
 
 #Step 1.
 Add the folder *Custom Templates* into the following path:
-```~/Library/Developer/Xcode/Templates/
+```
+~/Library/Developer/Xcode/Templates/
 ```
 
 #Step 2.
