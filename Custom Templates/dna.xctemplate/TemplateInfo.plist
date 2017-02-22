@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>com.dna.dt.unit.dnaBase</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.dna.dt.unit.storyboardApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for an application that uses a single view. It provides a view controller to manage the view, and a storyboard or nib file that contains the view.</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Objective-C</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>Classes/ViewControllers/ViewController.h:comments</string>
+						<string>Classes/ViewControllers/ViewController.h:imports:importCocoa</string>
+						<string>Classes/ViewControllers/ViewController.h:interface(___FILEBASENAME___ : UIViewController)</string>
+						<string>Classes/ViewControllers/ViewController.m:comments</string>
+						<string>Classes/ViewControllers/ViewController.m:imports:importHeader:ViewController.h</string>
+						<string>Classes/ViewControllers/ViewController.m:extension</string>
+						<string>Classes/ViewControllers/ViewController.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
+						<string>Classes/ViewControllers/ViewController.m:implementation:methods:viewDidLoad:super</string>
+						<string>Classes/ViewControllers/ViewController.m:implementation:methods:didReceiveMemoryWarning(- (void\)didReceiveMemoryWarning)</string>
+						<string>Classes/ViewControllers/ViewController.m:implementation:methods:didReceiveMemoryWarning:super</string>
+					</array>
+				</dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>Classes/ViewControllers/ViewController.swift:comments</string>
+						<string>Classes/ViewControllers/ViewController.swift:imports:importCocoa</string>
+						<string>Classes/ViewControllers/ViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
+						<string>Classes/ViewControllers/ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
+						<string>Classes/ViewControllers/ViewController.swift:implementation:methods:viewDidLoad:super</string>
+						<string>Classes/ViewControllers/ViewController.swift:implementation:methods:didReceiveMemoryWarning(override func didReceiveMemoryWarning(\))</string>
+						<string>Classes/ViewControllers/ViewController.swift:implementation:methods:didReceiveMemoryWarning:super</string>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>Supporting Files</key>
+		<dict/>
+		<key>Classes/ViewControllers/ViewController.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+			</array>
+		</dict>
+		<key>Classes/ViewControllers/ViewController.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+			</array>
+		</dict>
+		<key>Classes/ViewControllers/ViewController.swift</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>ViewControllers</string>
+			</array>
+		</dict>
+		<key>Resources/Storyboards/Base.lproj/Main.storyboard</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Resources</string>
+				<string>Storyboards</string>
+			</array>
+			<key>Path</key>
+			<string>Main.storyboard</string>
+			<key>SortOrder</key>
+			<integer>99</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>
