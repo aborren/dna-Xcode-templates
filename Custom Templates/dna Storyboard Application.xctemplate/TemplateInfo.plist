@@ -12,12 +12,12 @@
 	</array>
 	<key>Nodes</key>
 	<array>
-		<string>Info.plist:UIMainStoryboardFile</string>
+		<string>Supporting Files/Info.plist:UIMainStoryboardFile</string>
 		<string>Resources/Storyboards/Base.lproj/Main.storyboard</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>Info.plist:UIMainStoryboardFile</key>
+		<key>Supporting Files/Info.plist:UIMainStoryboardFile</key>
 		<string>&lt;key&gt;UIMainStoryboardFile&lt;/key&gt;
 &lt;string&gt;Main&lt;/string&gt;
 </string>

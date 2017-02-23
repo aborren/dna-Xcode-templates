@@ -10,6 +10,13 @@
 	<array>
 		<string>com.dna.dt.unit.storyboardApplication</string>
 	</array>
+	<key>Nodes</key>
+	<array>
+		<string>Classes/Controllers/DELETEME.txt</string>
+		<string>Classes/DataModels/DELETEME.txt</string>
+		<string>Classes/Views/DELETEME.txt</string>
+		<string>Resources/Xibs/DELETEME.txt</string>
+	</array>
 	<key>Concrete</key>
 	<true/>
 	<key>Description</key>
@@ -57,8 +64,30 @@
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>Supporting Files</key>
-		<dict/>
+		<key>Classes/Views/DELETEME.txt</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Views</string>
+			</array>
+		</dict>
+		<key>Classes/Controllers/DELETEME.txt</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Controllers</string>
+			</array>
+		</dict>
+		<key>Classes/DataModels/DELETEME.txt</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>DataModels</string>
+			</array>
+		</dict>
 		<key>Classes/ViewControllers/ViewController.h</key>
 		<dict>
 			<key>Group</key>
@@ -93,7 +122,17 @@
 			<key>Path</key>
 			<string>Main.storyboard</string>
 			<key>SortOrder</key>
-			<integer>99</integer>
+			<integer>101</integer>
+		</dict>
+		<key>Resources/Xibs/DELETEME.txt</key>
+		<dict>
+			<key>SortOrder</key>
+			<integer>999</integer>
+			<key>Group</key>
+			<array>
+				<string>Resources</string>
+				<string>Xibs</string>
+			</array>
 		</dict>
 	</dict>
 </dict>

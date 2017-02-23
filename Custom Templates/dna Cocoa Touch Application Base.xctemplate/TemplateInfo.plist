@@ -8,8 +8,8 @@
 	<string>com.dna.dt.unit.cocoaTouchApplicationBase</string>
 	<key>Ancestors</key>
 	<array>
-		<string>com.apple.dt.unit.applicationBase</string>
-		<string>com.apple.dt.unit.iosBase</string>
+		<string>com.dna.dt.unit.applicationBase</string>
+		<string>com.dna.dt.unit.iosBase</string>
 		<string>com.apple.dt.unit.languageChoice</string>
 	</array>
 	<key>Targets</key>
@@ -53,7 +53,7 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>Info.plist:UISupportedInterfaceOrientations~iPhone</string>
+						<string>Supporting Files/Info.plist:UISupportedInterfaceOrientations~iPhone</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
@@ -83,7 +83,7 @@
 					</dict>
 					<key>Nodes</key>
 					<array>
-						<string>Info.plist:UISupportedInterfaceOrientations~iPad</string>
+						<string>Supporting Files/Info.plist:UISupportedInterfaceOrientations~iPad</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
@@ -113,8 +113,8 @@
 					</dict>
 					<key>Nodes</key>
 					<array>
-						<string>Info.plist:UISupportedInterfaceOrientations~iPhone</string>
-						<string>Info.plist:UISupportedInterfaceOrientations~iPad</string>
+						<string>Supporting Files/Info.plist:UISupportedInterfaceOrientations~iPhone</string>
+						<string>Supporting Files/Info.plist:UISupportedInterfaceOrientations~iPad</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
@@ -328,19 +328,19 @@
 	</array>
 	<key>Nodes</key>
 	<array>
-		<string>Info.plist:iPhone</string>
-		<string>Info.plist:UIRequiredDeviceCapabilities:base</string>
-		<string>Info.plist:LaunchScreen</string>
+		<string>Supporting Files/Info.plist:iPhone</string>
+		<string>Supporting Files/Info.plist:UIRequiredDeviceCapabilities:base</string>
+		<string>Supporting Files/Info.plist:LaunchScreen</string>
 		<string>Resources/Images/Assets.xcassets</string>
 		<string>Resources/Storyboards/Base.lproj/LaunchScreen.storyboard</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>Info.plist:iPhone</key>
+		<key>Supporting Files/Info.plist:iPhone</key>
 		<string>&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
 &lt;true/&gt;
 </string>
-		<key>Info.plist:UIRequiredDeviceCapabilities</key>
+		<key>Supporting Files/Info.plist:UIRequiredDeviceCapabilities</key>
 		<dict>
 			<key>Beginning</key>
 			<string>&lt;key&gt;UIRequiredDeviceCapabilities&lt;/key&gt;
@@ -350,9 +350,9 @@
 			<key>Indent</key>
 			<integer>1</integer>
 		</dict>
-		<key>Info.plist:UIRequiredDeviceCapabilities:base</key>
+		<key>Supporting Files/Info.plist:UIRequiredDeviceCapabilities:base</key>
 		<string>&lt;string&gt;armv7&lt;/string&gt;</string>
-		<key>Info.plist:statusBarTintForNavBar</key>
+		<key>Supporting Files/Info.plist:statusBarTintForNavBar</key>
 		<string>&lt;key&gt;UIStatusBarTintParameters&lt;/key&gt;
 &lt;dict&gt;
     &lt;key&gt;UINavigationBar&lt;/key&gt;
@@ -364,7 +364,7 @@
     &lt;/dict&gt;
 &lt;/dict&gt;
 </string>
-		<key>Info.plist:LaunchScreen</key>
+		<key>Supporting Files/Info.plist:LaunchScreen</key>
 		<string>&lt;key&gt;UILaunchStoryboardName&lt;/key&gt;
 &lt;string&gt;LaunchScreen&lt;/string&gt;
 </string>
